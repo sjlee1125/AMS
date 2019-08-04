@@ -32,6 +32,7 @@
 					<th></th>
 					<th>Major Name</th>
 					<th>Major Code</th>
+					<th>Number of Student</th>
 					<th></th>
 				</tr>
 			</thead>
@@ -132,7 +133,7 @@
 					console.log(data);
 					var text="";
 					for(var i=0;i<data.length;i++){
-						text+="<tr><th><input type='checkbox' name='select' value='"+data[i].idx+"'></th>"+"<th>"+data[i].MajorName+"</th><th>"+data[i].MajorCode+"</th>"+"<th></th>";
+						text+="<tr><th><input type='checkbox' name='select' value='"+data[i].idx+"'></th>"+"<th>"+data[i].MajorName+"</th><th>"+data[i].MajorCode+"</th>"+"<th>"+"</th>"+"<th></th>";
 					}
 					$("#table_contents").html(text);
 				}
@@ -150,7 +151,7 @@
 					console.log(data);
 					var text="";
 					for(var i=0;i<data.length;i++){
-						text+="<tr><th><input type='checkbox' name='select' value='"+data[i].idx+"'></th>"+"<th>"+data[i].MajorName+"</th><th>"+data[i].MajorCode+"</th>"+"<th></th>";
+						text+="<tr><th><input type='checkbox' name='select' value='"+data[i].idx+"'></th>"+"<th>"+data[i].MajorName+"</th><th>"+data[i].MajorCode+"</th>"+"<th>"+"</th>"+"<th></th>";
 					}
 					$("#table_contents").html(text);
 				}

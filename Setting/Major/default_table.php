@@ -2,7 +2,7 @@
 	include_once "../../dbconnect.php";
 	require '../../JSON.php'; 
 	
-  	$sql = "select * from major;
+  	$sql = "select * from major";
   	$result=$conn->query($sql);
 
   	$rows=array();

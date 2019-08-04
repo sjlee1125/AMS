@@ -35,6 +35,7 @@
 					<th>Phone</th>
 					<th>E-mail</th>
 					<th>Major</th>
+					<th>Number of Students</th>
 					<td></td>
 				</tr>
 			</thead>
@@ -135,7 +136,7 @@
 					console.log(data);
 					var text="";
 					for(var i=0;i<data.length;i++){
-						text+="<tr><th><input type='checkbox' name='select' value='"+data[i].idx+"'></th>"+"<th>"+data[i].ProfessorNumber+"</th><th>"+data[i].Name+"</th><th>"+data[i].Phone+"</th><th>"+data[i].Email+"</th><th>"+data[i].MajorName+"</th>"+"<td></td>";
+						text+="<tr><th><input type='checkbox' name='select' value='"+data[i].idx+"'></th>"+"<th>"+data[i].ProfessorNumber+"</th><th>"+data[i].Name+"</th><th>"+data[i].Phone+"</th><th>"+data[i].Email+"</th><th>"+data[i].MajorName+"</th><th>"+"</th>"+"<td></td>";
 					}
 					$("#table_contents").html(text);
 				}
@@ -153,7 +154,7 @@
 					console.log(data);
 					var text="";
 					for(var i=0;i<data.length;i++){
-						text+="<tr><th><input type='checkbox' name='select' value='"+data[i].idx+"'></th>"+"<th>"+data[i].ProfessorNumber+"</th><th>"+data[i].Name+"</th><th>"+data[i].Phone+"</th><th>"+data[i].Email+"</th><th>"+data[i].MajorName+"</th>"+"<td></td>";
+						text+="<tr><th><input type='checkbox' name='select' value='"+data[i].idx+"'></th>"+"<th>"+data[i].ProfessorNumber+"</th><th>"+data[i].Name+"</th><th>"+data[i].Phone+"</th><th>"+data[i].Email+"</th><th>"+data[i].MajorName+"</th><th>"+"</th>"+"<td></td>";
 					}
 					$("#table_contents").html(text);
 				}
