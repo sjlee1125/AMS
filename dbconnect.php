@@ -1,8 +1,8 @@
 
 <?php 
 	$servername="localhost";
-	$username="root";
-	$password="root";
+	$username="test";
+	$password="test";
 	$db="ams";
 
 	$conn = new mysqli($servername, $username, $password, $db);

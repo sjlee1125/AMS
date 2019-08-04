@@ -151,7 +151,7 @@
 					console.log(data);
 					var text="";
 					for(var i=0;i<data.length;i++){
-						text+="<tr><th><input type='checkbox' name='select' value='"+data[i].idx+"'></th>"+"<th>"+data[i].CampusName+"</th><th>"+data[i].CampusCode+"</th>"+"<th>"+"</th>"+"<th></th>";
+						text+="<tr><th><input type='checkbox' name='select' value='"+data[i].idx+"'></th>"+"<th>"+data[i].CampusName+"</th><th>"+data[i].CampusCode+"</th>"+"<th>"+data[i].count+"</th>"+"<th></th>";
 					}
 					$("#table_contents").html(text);
 				}

@@ -38,8 +38,8 @@
 
 		<div style="margin-left: 220px;margin-top: 20px;">
 			<form action="check_login.php" method="post">	
-				<label for="id">ID &nbsp;&nbsp;</label><input type="text" name="id"><br>
-				<label for="pw">PW </label><input type="password" name="pw"><br>
+				<label for="id">ID &nbsp;&nbsp;</label><input value="administrator" type="text" name="id"><br>
+				<label for="pw">PW </label><input value="administrator" type="password" name="pw"><br>
 				<input type="submit" value="Login" style="margin-left: 27px">
 			</form>	
 		</div>
