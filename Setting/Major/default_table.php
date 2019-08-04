@@ -2,7 +2,7 @@
 	include_once "../../dbconnect.php";
 	require '../../JSON.php'; 
 	
-  	$sql = "select * from major";
+  	$sql = "select major.idx,major.MajorName,major.MajorCode,count(major.idx) as count from major inner join student on major.idx=student.Major group by major.idx";
   	$result=$conn->query($sql);
 
   	$rows=array();
