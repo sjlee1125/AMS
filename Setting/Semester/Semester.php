@@ -34,7 +34,6 @@
 					<th>Semester Number</th>
 					<th>Date of Start</th>
 					<th>Date of End</th>
-					<th>Number of Student</th>
 					<th></th>
 					<td></td>
 				</tr>
@@ -178,7 +177,7 @@
 					console.log(data);
 					var text="";
 					for(var i=0;i<data.length;i++){
-						text+="<tr><th><input type='checkbox' name='select' value='"+data[i].idx+"'></th>"+"<th>"+data[i].SemesterName+"</th><th>"+data[i].DateOfStart+"</th><th>"+data[i].DateOfEnd+"</th><th>"+"</th>"+"<th><input class='btn_SmallBar' type='button' value='ADD STUDENT'><input class='btn_SmallBar' type='button' value='ADD SUBJECT'></th>"+"<td></td>";
+						text+="<tr><th><input type='checkbox' name='select' value='"+data[i].idx+"'></th>"+"<th>"+data[i].SemesterName+"</th><th>"+data[i].DateOfStart+"</th><th>"+data[i].DateOfEnd+"</th>"++"<th><input class='btn_SmallBar' type='button' value='ADD STUDENT'><input class='btn_SmallBar' type='button' value='ADD SUBJECT'></th>"+"<td></td>";
 					}
 					$("#table_contents").html(text);
 				}
@@ -196,7 +195,7 @@
 					console.log(data);
 					var text="";
 					for(var i=0;i<data.length;i++){
-						text+="<tr><th><input type='checkbox' name='select' value='"+data[i].idx+"'></th>"+"<th>"+data[i].SemesterName+"</th><th>"+data[i].DateOfStart+"</th><th>"+data[i].DateOfEnd+"</th><th>"+"</th>"+"<th><input class='btn_SmallBar' type='button' value='ADD STUDENT'><input class='btn_SmallBar' type='button' value='ADD SUBJECT'></th>"+"<td></td>";
+						text+="<tr><th><input type='checkbox' name='select' value='"+data[i].idx+"'></th>"+"<th>"+data[i].SemesterName+"</th><th>"+data[i].DateOfStart+"</th><th>"+data[i].DateOfEnd+"</th>"+"<th><input class='btn_SmallBar' type='button' value='ADD STUDENT'><input class='btn_SmallBar' type='button' value='ADD SUBJECT'></th>"+"<td></td>";
 					}
 					$("#table_contents").html(text);
 				}
