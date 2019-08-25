@@ -33,7 +33,7 @@
 			<ul id="Student" >Student</ul>
 			<ul id="Subject">Subject</ul>
 			<ul id="Certificate">Certificate</ul>
-			<ul id="Billing">Billing</ul>
+			<!-- <ul id="Billing">Billing</ul> -->
 			<ul id="Setting">Setting</ul>
 		</div>
 	</div>
